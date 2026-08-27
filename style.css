@@ -1,66 +1,107 @@
-/* Configuração geral */
+/* Configuração Geral e Fundo da Página */
 body {
-    background-color: #1e293b;
-    color: #f8fafc;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+  background-color: #121214;
+  color: #e1e1e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Identificação da dupla */
+/* Identificação da Dupla */
 .dupla {
-    text-align: center;
-    font-size: 18px;
-    color: #38bdf8;
-    margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #a8a8b3;
 }
 
-/* Container principal (Centralizado) */
+.dupla span {
+  color: #e53935;
+  font-weight: bold;
+}
+
+/* Card Principal Centralizado */
 .card {
-    background-color: #0f172a;
-    width: 80%;
-    max-width: 500px;
-    margin: 0 auto; 
-    padding: 30px; 
-    border-radius: 16px; 
-    text-align: center; 
+  background-color: #202024;
+  max-width: 650px;
+  width: 100%;
+  padding: 35px;
+  margin: 0 auto;
+  border-radius: 16px; /* Cantos arredondados */
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Centralização do conteúdo */
 }
 
-/* Título principal */
+/* Título Principal */
 h1 {
-    color: #f59e0b;
-    font-size: 26px;
-    margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
-/* Imagem do Fusca */
-.imagem-tema {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 12px; 
-    margin-bottom: 20px; 
+/* Imagem com Bordas Arredondadas */
+.container-imagem img {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  border-radius: 12px; /* Cantos arredondados na imagem */
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Texto descritivo */
+/* Descrição do Texto */
 .descricao {
-    color: #e2e8f0;
-    font-size: 15px;
-    margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #c4c4cc;
+  text-align: justify;
+  margin-bottom: 25px;
 }
 
-/* Botão interativo */
-.botao {
-    background-color: #f59e0b;
-    color: #0f172a;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+/* Blocos de Informação (Listas) */
+.secao-info {
+  background-color: #29292e;
+  padding: 20px; /* Espaçamento interno */
+  margin-bottom: 20px; /* Espaçamento externo */
+  border-radius: 8px;
+  text-align: left;
 }
 
-/* Efeito ao passar o mouse (:hover) */
-.botao:hover {
-    background-color: #d97706;
+.secao-info h3 {
+  color: #e53935;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.secao-info ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.secao-info li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #e1e1e6;
+}
+
+/* Botão com Efeito Hover */
+.botao-interativo {
+  background-color: #e53935;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 28px; /* Espaçamento interno */
+  margin-top: 15px; /* Espaçamento externo */
+  border-radius: 30px; /* Cantos arredondados */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Efeito :hover no botão */
+.botao-interativo:hover {
+  background-color: #b71c1c;
+  transform: scale(1.05); /* Leve aumento ao passar o mouse */
 }
