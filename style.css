@@ -1,0 +1,66 @@
+/* Configuração geral */
+body {
+    background-color: #1e293b;
+    color: #f8fafc;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Identificação da dupla */
+.dupla {
+    text-align: center;
+    font-size: 18px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+/* Container principal (Centralizado) */
+.card {
+    background-color: #0f172a;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto; /* Centraliza o elemento na página */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 16px; /* Cantos arredondados */
+    text-align: center; /* Centraliza os textos */
+}
+
+/* Título principal */
+h1 {
+    color: #f59e0b;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Imagem do Fusca */
+.imagem-tema {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px; /* Cantos arredondados na imagem */
+    margin-bottom: 20px; /* Espaçamento externo inferior */
+}
+
+/* Texto descritivo */
+.descricao {
+    color: #e2e8f0;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* Botão interativo */
+.botao {
+    background-color: #f59e0b;
+    color: #0f172a;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse (:hover) */
+.botao:hover {
+    background-color: #d97706;
+}
