@@ -29,5 +29,5 @@ const botaoHistoria = document.querySelector('#btn-historia');
 
 botaoHistoria.addEventListener('click', () => {
   // Abre o site em uma nova aba
-  window.open('https://pt.wikipedia.org/wiki/Volkswagen_Fusca', '_blank');
+window.open('https://pt.wikipedia.org/wiki/Volkswagen_Fusca', '_blank');
 });
