@@ -21,10 +21,10 @@ body {
     background-color: #0f172a;
     width: 80%;
     max-width: 500px;
-    margin: 0 auto; /* Centraliza o elemento na página */
-    padding: 30px; /* Espaçamento interno */
-    border-radius: 16px; /* Cantos arredondados */
-    text-align: center; /* Centraliza os textos */
+    margin: 0 auto; 
+    padding: 30px; 
+    border-radius: 16px; 
+    text-align: center; 
 }
 
 /* Título principal */
@@ -38,8 +38,8 @@ h1 {
 .imagem-tema {
     width: 100%;
     max-width: 400px;
-    border-radius: 12px; /* Cantos arredondados na imagem */
-    margin-bottom: 20px; /* Espaçamento externo inferior */
+    border-radius: 12px; 
+    margin-bottom: 20px; 
 }
 
 /* Texto descritivo */
